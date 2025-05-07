@@ -11,6 +11,9 @@ set -x
 echo "Installing all dependencies..."
 npm install
 
+# Explicitly install missing dev dependencies
+npm install @vitejs/plugin-react --no-save
+
 # Build the frontend and backend
 echo "Building the application..."
 npm run build
