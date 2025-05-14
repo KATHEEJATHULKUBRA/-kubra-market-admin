@@ -17,7 +17,7 @@ const Logo: React.FC<LogoProps> = ({ className = "", size = "md" }) => {
   return (
     <div className={cn("flex items-center", className)}>
       <img
-        src="/images/basket.png"
+        src="src/assets/images/kubra-logo.png"
         alt="Kubra Market Logo"
         className={cn(sizes[size], "object-contain")}
       />
